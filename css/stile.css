@@ -51,7 +51,9 @@ main{
 .bgc-pink{
     background-color: pink;
 }
-    
+.bgc-lightgrey{
+    background-color: lightgrey;
+}
 .bd-black{
     border: 3px dashed black;
 }
@@ -63,4 +65,10 @@ main{
 }
 .margin-left--{
     margin-left:-100px;
+}
+.margin-left{
+    margin-left: 100px;
+}
+.margin-right{
+    margin-right:-100px;
 }
