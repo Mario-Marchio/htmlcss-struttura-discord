@@ -24,14 +24,20 @@ main{
     width: 40%;
     display: flex;
 }
-.h-height{
-    height: 50%;
-}
 .second-header{
     height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#bigger-main{
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-height{
+    height: 50%;
 }
 .sh-height{
     height: 85%;
@@ -53,6 +59,9 @@ main{
 }
 .bgc-lightgrey{
     background-color: lightgrey;
+}
+.bgc-green{
+    background-color: green;
 }
 .bd-black{
     border: 3px dashed black;
