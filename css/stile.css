@@ -46,8 +46,17 @@ footer{
     justify-content: center;
     align-items: center;
 }
+.second-footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 .h-height{
     height: 50%;
+}
+.mh-height{
+    height: 75%;
 }
 .sh-height{
     height: 85%;
@@ -91,6 +100,9 @@ footer{
 .bd-white{
     border: 3px dashed white;
 }
+.bt-white{
+    border-top: 1px solid white;
+}
 .flex-grow-1{
     flex-grow: 1;
 }
@@ -111,4 +123,13 @@ footer{
 }
 .table-section{
     width: 25%;
+}
+.space-between{
+    justify-content: space-between;
+}
+.jc-center{
+    align-items: center;
+}
+.buttons{
+    width: 100px;
 }
