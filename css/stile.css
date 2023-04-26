@@ -16,11 +16,21 @@ main{
     justify-content: center;
     align-items: center;
 }
+footer{
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container{
     width: 50%;
     display: flex;
 }
 .small-container{
+    width: 40%;
+    display: flex;
+}
+.smaller-container{
     width: 40%;
     display: flex;
 }
@@ -30,7 +40,7 @@ main{
     justify-content: center;
     align-items: center;
 }
-#bigger-main{
+.bigger-main{
     height: 1200px;
     display: flex;
     justify-content: center;
@@ -41,6 +51,9 @@ main{
 }
 .sh-height{
     height: 85%;
+}
+.fh-height{
+    height: 95%;
 }
 .bgc-yellow{
     background-color: yellow;
@@ -63,8 +76,20 @@ main{
 .bgc-green{
     background-color: green;
 }
+.bgc-darkgrey{
+    background-color: rgb(17, 24, 24);
+}
+.bgc-red{
+    background-color: red;
+}
+.bgc-aqua{
+    background-color: aqua;
+}
 .bd-black{
     border: 3px dashed black;
+}
+.bd-white{
+    border: 3px dashed white;
 }
 .flex-grow-1{
     flex-grow: 1;
@@ -80,4 +105,10 @@ main{
 }
 .margin-right{
     margin-right:-100px;
+}
+.table-left{
+    justify-content: flex-start;
+}
+.table-section{
+    width: 25%;
 }
