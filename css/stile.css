@@ -10,8 +10,18 @@ header{
     justify-content: center;
     align-items: center;
 }
+main{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container{
     width: 50%;
+    display: flex;
+}
+.small-container{
+    width: 40%;
     display: flex;
 }
 .h-height{
@@ -35,6 +45,9 @@ header{
 .bgc-blue{
     background-color: blue;
 }
+.bgc-purple{
+    background-color: purple;
+}
 .bgc-pink{
     background-color: pink;
 }
@@ -47,4 +60,7 @@ header{
 }
 .flex-grow-2{
     flex-grow: 2;
+}
+.margin-left--{
+    margin-left:-100px;
 }
